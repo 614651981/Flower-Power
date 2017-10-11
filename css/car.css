@@ -1,0 +1,362 @@
+@import url("base.css");
+
+header{
+    width: 100%;
+    transition: all 1s ease;
+    background: #fff;
+}
+header .logo{
+    padding-top: 17px;
+    display: block;
+}
+header .logo img{
+    max-width: 100%;
+    height: auto;
+    vertical-align: top;
+    /* padding-bottom: 100%; */
+    overflow:hidden;
+}
+.head-right .nav1 .main-nav{
+    display: flex;
+    flex-direction: row;
+    justify-content:space-between;
+    padding: 40px 0;
+}
+.head-right .nav1 .main-nav a{
+    color: #333;
+    font-weight: 700;
+    font-style: normal;
+    line-height: 1.5;
+    letter-spacing: 0em;
+    font-size: 14px;
+}
+.head-right .nav1 .main-nav a:hover{
+    color: #E3A5BF;
+}
+
+
+
+.head{
+    width: 100%;
+}
+.head .nav2 .main-nav{
+    display: flex;
+    flex-direction: row;
+    justify-content:space-between;
+    padding: 30px 0;
+}
+.head .nav2 .main-nav li{
+    font-weight: 700;
+    font-style: normal;
+    line-height: 1.5;
+    letter-spacing: 0em;
+    font-size: 14px;
+    text-align: center;
+}
+.head .nav2 .main-nav li a{
+    color: #333;
+}
+.head-right .nav1 .main-nav li:nth-of-type(4) a{
+    color: #E3A5BF;
+}
+
+/* 侧导航开始 */
+.section-aside{
+    height: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background:rgba(255,255,255,0.8);
+    z-index: 200;
+    display: none;
+}
+.section-aside .top{
+    position: absolute;
+    top: 10px;
+    left: 50%;
+    margin-left:-73px;
+}
+.section-aside ul{
+    margin-top:100px;
+}
+.section-aside ul li{
+    font-size: 16px;
+    padding: 10px  50px;
+}
+.section-aside ul li a{
+    color: #474747;
+}
+.section-aside ul li a:hover{
+    color:#E3A5BF;
+}
+
+/* 图开始 */
+.banner-img{
+    width: 100%;
+}
+.banner-img .container{
+    padding: 0;
+}
+.big-img[class*="col-"] {
+    padding-left: 0;
+    padding-right: 0;
+}
+.big-img{
+    background: url("../img/shop-banner.jpg");
+    background-position: center bottom;
+    background-repeat: no-repeat;
+}
+.big-img .text-center{
+    font-family: "Great Vibes","Comic Sans MS",cursive,sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 46px;
+    line-height: 1.5;
+    letter-spacing: 0;
+    color:#E3A5BF;
+    text-align: center;
+    padding-bottom: 160px;
+    padding-top: 160px;
+}
+
+.section-mulu{
+	border-bottom: 1px solid #ddd;
+}
+.section-mulu .mulu li{
+	float: left;
+	font-size: 16px;
+	line-height: 60px;
+	color: #333;
+}
+.section-mulu .mulu li span{
+	margin: 20px;
+}
+.section-mulu .mulu li:nth-of-type(2){
+	color:#E3A5BF; 
+}
+
+
+/* 购物车 */
+.car{
+	 margin-top: 90px;
+}
+.table{
+	width: 100%;
+    max-width: 100%;
+    margin-bottom: 20px;
+    background: #f2f2f2;
+    border: none;
+ }
+.car .table tr{
+    font-size: 106.667%;
+    background:#f2f2f2;
+    /* border: none;
+    border-bottom: 1px solid #000;
+    margin-bottom: 10px; */
+}
+.table td{
+	padding: 30px 15px;
+    vertical-align: middle;
+    text-align: center;
+    /* border: none; */
+}
+.table .delete a{
+    color: #888;
+    font-size: 30px;
+}
+.table .shop{
+	width: 135px;
+}
+.table .shop a{
+	color: #5e5a54;
+}
+.table .shop a img{
+	max-width: 100%;
+    height: auto;
+    vertical-align: top;
+}
+
+.table .name a{
+	font-weight: 400;
+    font-size: 18px;
+    letter-spacing: 2px;
+    margin-bottom: 7px;
+    margin-top: 15px;
+    display: block;
+    width: 100%;
+    color:#5E5A54;
+}
+.table .name .des{
+	font-size: 14px;
+    color: #999;
+    display: block;
+    width: 100%;
+    /* font-style: italic; */
+}
+.table .name .price{
+	color:#5E5A54;
+}
+.table .name .price del{
+	color: #999;
+}
+.table .number input{
+	max-width: 100%;
+    height: 50px;
+    line-height: 50px;
+    width: 100px;
+    font-size: 18px;
+    font-weight: 400;
+    text-align: center;
+    color: #333;
+    border: none;
+    outline: none;
+    /* font-family: 'PT Sans', sans-serif; */
+}
+.table .number .zong span{
+	font-size: 22px;
+    line-height: 1.8em;
+}
+
+
+
+.totals{
+	display: block;
+    background: #f2f2f2;
+    padding: 20px 40px 30px;
+    color: #FFF;
+}
+.totals table{
+	border: none;
+    width: 100%;
+}
+.totals table .car-subtotal{
+	border-bottom: 1px solid #333;
+	 padding: 15px 20px;
+}
+.totals table .car-subtotal th{
+	font-weight: 300;
+    opacity: .6;
+    padding: 15px 20px;
+    color: #000;
+    font-size: 16px;
+    line-height: 1.5;
+    text-align: left;
+}
+.totals table .car-subtotal td{
+	padding: 15px 20px;
+    color: #333;
+    font-size: 16px;
+    line-height: 1.5;
+    font-weight: normal;
+    text-align: right;
+}
+.totals .jiesuan{
+	margin-top: 30px
+}
+.totals .jiesuan a{
+	width: 100%;
+    font-size: 13px;
+    letter-spacing: 3px;
+    font-weight: 400;
+    height: 48px;
+    line-height: 46px;
+    padding: 0 30px;
+    color: #fff;
+    display: block;
+    margin-left: 0;
+    background-color: #E3A5BF;
+    text-align: center;
+}
+
+
+
+/* footer开始 */
+.footer{
+    background: #fff;
+    line-height: 24px;
+    font-weight: 400;
+    font-size: 14px;
+    color: #474747;
+    margin-top: 90px;
+}
+
+.footer .conten-footer .logo-footer{
+    text-align: center;
+    margin-bottom: 80px;
+}
+.conten-footer .logo-footer img{
+    display: inline-block;
+    max-width: 100%;
+    height: auto;
+}
+.main-text-footer p{
+    margin-bottom: 50px;
+}
+.main-text-footer .logos li{
+    float: left;
+}
+.main-text-footer .logos li a i{
+    color: #E3A5BF;
+    font-size: 30px;
+    padding-right: 10px;
+    line-height: 30px;
+}
+.footer-center .work-time{
+    margin-bottom: 50px;
+}
+.footer h3{
+    letter-spacing: 0;
+    text-transform: uppercase;
+    font-weight: bold;
+    margin-top: 0;
+    margin-bottom: 20px;
+    font-size: 16px;
+}
+
+.your-email{
+    width: 100%;
+}
+
+.input-email{
+    height: 40px;
+    line-height: 40px;
+    color: #757575;
+    padding: 20px;
+    width: 70%;
+    float: left;
+    border: 1px solid #b7b7b7;
+    border-right: 0;
+    outline: none;
+}
+
+.submit{
+    width: 30%;
+    float: left;
+    height: 42px;
+    position: relative;
+}
+.input-submit{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    border-color: transparent;
+    color: #fff;
+    text-transform: uppercase;
+    z-index: 5;
+    background-color: #E3A5BF;
+}
+.footer .text{
+    line-height: 32px;
+    font-weight: 400;
+    font-size: 16px;
+    color: #474747;
+    margin-bottom: 0;
+}
+.footerleft{
+    margin-bottom: 40px;
+}
+.lianjie a p:hover{
+    color:#E3A5BF;
+    transition: all 0.5s  ease;
+    transform: translateX(8px); 
+}

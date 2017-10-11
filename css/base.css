@@ -1,0 +1,184 @@
+*{
+	margin: 0;
+	padding: 0;
+	font-family: "微软雅黑","宋体","sans-serif";
+	list-style: none;
+	box-sizing: border-box;
+}
+a{
+	text-decoration: none;
+}
+body{
+	background:#fff;
+	line-height: 24px;
+    font-weight: 400;
+    font-size: 16px;
+    color: #474747;
+}
+
+
+.mb-1{
+	color: #E3A5BF;
+    line-height: 1.2;
+    font-size: 40px;
+    font-weight: 400;
+    font-style: normal;
+}
+.mtn-2{
+	font-weight: 400;
+    font-size: 40px;
+    margin-left: 65px;
+    margin-top: 20px;
+}
+
+
+
+
+
+
+@media screen  and (max-width:768px){
+	.head{
+		display:block;
+	}
+	header{
+		display:none;
+	}
+
+	.banner-img .container{
+		width: 100%;
+	}
+	.mb-1{
+		font-size: 20px;
+	}
+	.mtn-2{
+		font-size: 20px;
+	}
+
+/* 花语隐藏与显示 */
+	.section-huayu .container{
+    padding: 0;
+	}
+    .huayu-list{
+    	padding: 0;
+    }
+	.huayu-list .lists{
+		display:none;
+	}
+	.huayu-list .lists-2{
+		display: block;
+	}
+
+	
+	/* 留言板 */
+	.section-liuyan .content{
+		padding:0;
+	}
+
+	
+}
+
+
+@media screen and (max-width: 992px) and (min-width: 768px){
+	.head{
+		display:block;
+	}
+	header{
+		display:none;
+	}
+
+	.banner-img .container{
+		width: 100%;
+	}
+	.mb-1{
+		font-size: 30px;
+	}
+	.mtn-2{
+		font-size: 30px;
+	}
+
+	/* 花语隐藏与显示 */
+	.huayu-list .lists{
+		display:block;
+	}
+	.huayu-list .lists-2{
+		display: none;
+	}
+
+
+
+
+	/* 留言板 */
+	.section-liuyan .content{
+		padding:0;
+	}
+}
+
+
+@media screen and (min-width: 992px) and (max-width: 1200px){
+	header{
+		display:block;
+	}
+	.head{
+		display:none;
+	}
+
+	.banner-img .container{
+		width: 100%;
+	}
+	.mb-1{
+		font-size: 36px;
+	}
+	.mtn-2{
+		font-size: 36px;
+	}
+
+
+	
+	/* 留言板 */
+	.section-liuyan .content{
+		padding:0;
+	}
+
+
+
+	/* 花语隐藏与显示 */
+	.huayu-list .lists{
+		display:block;
+	}
+	.huayu-list .lists-2{
+		display: none;
+	}
+}
+
+
+@media screen  and (min-width:1200px){
+	header{
+		display:block;
+	}
+	.head{
+		display:none;
+	}
+
+	.banner-img .container{
+		width: 100%;
+	}
+
+
+
+	/* 花语隐藏与显示 */
+	.huayu-list .lists{
+		display:block;
+	}
+	.huayu-list .lists-2{
+		display: none;
+	}
+}
+
+.footer-bottom{
+	background-color: #FFD1E5;
+    margin-bottom: 0;
+    text-align: center;
+    color: #fff;
+    line-height: 55px;
+    margin-top: 40px;
+}
